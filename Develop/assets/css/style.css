@@ -1,0 +1,301 @@
+/* tells browser to fix box model calculations 
+   and gets rid of browser's margins  */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* sets Background color*/
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    /* adds padding so header inside has space */
+    padding: 20px;
+    /* sets font family */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   /* sets Background color of header*/
+    background-color: #2a607c;
+   /* sets font color of main heading(Horison) on header*/
+    color:#ffffff;
+}
+
+/* targets <h1> element inside of header */
+.header h1 {
+    /* sets display to view it inline horizontally*/
+    display: inline-block;
+   /* sets font size of main heading(Horison) on header*/
+   font-size: 48px;
+}
+
+/* sets the span's font color */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* targets <section> element inside of <header> */
+.header nav {
+    /* sets the header padding to 15 top */
+    padding-top: 15px;
+    /* puts space between main heading & list items horizontally */
+    margin-right: 20px;
+    /*align elements to right side*/
+    float: right;
+    /* sets font family */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* sets font size of the header list elements*/  
+    font-size: 20px;
+}
+
+/* targets <ul> element inside of <section> & <section> --> <header>*/
+.header nav ul {
+    list-style-type: none;
+}
+
+/* targets <li> element inside of <ul>, ul--> <section> & <section> --> <header>*/
+.header nav ul li
+{
+    /* sets unordered list inline horizontally*/
+    display: inline-block;
+    /* puts space between each listed items horizontally*/
+    margin-left: 25px;
+}
+
+/*sets anchor's font color and get rid of decoration on it*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*sets paragraph's font size */
+p {
+    font-size: 16px;
+}
+
+/* for Background Image */
+.hero {
+     /* sets image's height*/
+    height: 800px;
+    /* sets image's width so that */
+    width: 100%;
+    /* puts space between the image and the content vertically */
+    margin-bottom: 25px;
+    /*adds background image*/
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    /* tells image to fit the background no matter what */
+    background-size: cover;
+    /* sets the image position at the center */
+    background-position: center;
+}
+
+/* for the main content*/
+.content {
+    /*sets the content section's width*/
+    width: 75%;
+    /* sets contents inline horizontally*/
+    display: inline-block;
+    /*puts space between a content secton & a side section*/
+    margin-left: 20px;
+}
+
+/*align elements to left and puts space horizontally on the right */
+.float-left 
+{
+    float: left;
+    margin-right: 25px;
+}
+
+/*align elements to right and puts space horizontally on the left */
+.float-right 
+{
+    float: right;
+    margin-left: 25px;
+}
+
+
+.search-engine-optimization 
+{
+    /* adds space at the botton of the seo section */
+     margin-bottom: 20px;
+    /* adds padding so html inside has space */
+    padding: 50px;
+    /*sets the seo section height*/
+    height: 300px;
+    /*sets the font family of seo content*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*sets the background color of seo section*/
+    background-color: #0072bb;
+    /*sets the font color of seo content*/
+    color: #ffffff;
+}
+
+/*controls the height of seo image*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 
+{
+    /* sets the space between the seo heading and seo text*/
+    margin-bottom: 20px;
+    /* sets the font size of seo heading*/
+    font-size: 36px;
+}
+
+.online-reputation-management 
+{
+    /* adds space at the bottom of the reputation section */
+    margin-bottom: 20px;
+    /* adds padding so html inside has space */
+    padding: 50px;
+    /*sets the reputation section height*/
+    height: 300px;
+    /*sets the font family of reputation content*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*sets the background color of reputation section*/
+    background-color: #0072bb;
+    /*sets the font color of reputation content*/
+    color: #ffffff;
+}
+
+/* sets the height of a reputation image*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.online-reputation-management h2 {
+  /* sets the space between the reputation heading and its text */
+    margin-bottom: 20px;
+  /* sets the font size of reputation heading*/  
+    font-size: 36px;
+}
+
+.social-media-marketing {
+    /* adds space at the bottom of the media section */
+    margin-bottom: 20px;
+    /* adds padding so html inside has space */
+    padding: 50px;
+    /* sets the media section height*/ 
+    height: 300px;
+    /* sets the font family */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* sets the background color of media section*/
+    background-color: #0072bb;
+    /*sets the font color of media content*/
+    color: #ffffff;
+}
+
+/* sets the media image height */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+
+.social-media-marketing h2 {
+   /* sets the space between the media heading and its text */
+    margin-bottom: 20px;
+   /* sets the font size of media heading*/  
+    font-size: 36px;
+}
+
+.benefits {
+    /*puts space on the right side of benefit block*/
+    margin-right: 20px;
+    /* puts space between the html elements*/
+    padding: 20px;
+    /*Elements are not allowed to float on both sides*/
+    clear: both;
+    /*Align the block to right*/
+    float: right;
+    /*sets block width so it will be visible on side*/
+    width: 20%;
+    /*sets block's height*/
+    height: 100%;
+    /*sets font family for benefit block text*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*sets background color for benefit block */
+    background-color: #2589bd;
+}
+
+.benefit-lead {
+  /* adds space at the bottom of benefit lead block*/
+    margin-bottom: 32px;
+  /* sets benefit lead block's font color*/
+    color: #ffffff;
+}
+
+/* adds space at the bottom of the lead heading and align it to center.*/
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img {
+    /*view image in a block*/
+    display: block;
+    /* image is center on a block using auto for left/right */
+    margin: 10px auto;
+    /*sets max width to make it visible on side bar*/   
+    max-width: 150px;
+}
+
+.benefit-brand {
+    /* adds space at the bottom of brand block*/
+    margin-bottom: 32px;
+    /* sets brand block's font color*/
+    color: #ffffff;
+}
+
+/* adds space at the bottom of the brand heading and align it to center.*/
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand img {
+    /*puts image in a block*/
+    display: block;
+    /* image is center on a block using auto for left/right */
+    margin: 10px auto;
+    /*sets max width to make it visible on side bar*/
+    max-width: 150px;
+}
+
+.benefit-cost {
+    /* adds space at the bottom of cost block*/
+    margin-bottom: 32px;
+    /* sets cost block's font color*/
+    color: #ffffff;
+}
+
+/* adds space at the bottom of the cost heading and align it to center.*/
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost img {
+    /*sets image in a block*/
+    display: block;
+    /* image is center on a block using auto for left/right */
+    margin: 10px auto;
+    /*sets max width to make it visible on side bar*/
+    max-width: 150px;
+}
+
+.footer {
+    /*puts spacing between the html elements*/
+    padding: 30px;
+    /*not allowed to float on either left or right*/
+    clear: both;
+    /*sets footer font's family*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*align the footer text on center*/
+    text-align: center;
+}
+/*sets footer heading size*/
+.footer h2 {
+    font-size: 20px;
+}
