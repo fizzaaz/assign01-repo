@@ -1,11 +1,14 @@
-<h1> Horiseon marketing website designed and coded by [FIZZA ZAIDI](https://github.com/fizzaaz)</h1><br>
-Based on the [Horiseon WebPage](https://github.com/fizzaaz/assign01-repo)
+<h1> Horiseon Marketing Website </h1>
+<h4>Designed and coded by <a href="https://github.com/fizzaaz">FIZZA ZAIDI</a></h4>
+Based on the <a href="https://github.com/fizzaaz/assign01-repo">Horiseon WebPage</a>
+
+Demo: https://fizzaaz.github.io/assign01-repo/Develop/
 <br>
-Demo: https://fizzaaz.github.io/assign01-repo/Develop/<br>
-![page1](Develop/assets/images/page1.png)
+<img src="https://github.com/fizzaaz/assign01-repo/blob/c895744762565127319ce05a0bc2c2b0329aed6a/Develop/assets/images/page1.png"/>
 <br>
-![image](https://user-images.githubusercontent.com/83326935/118372479-74c90980-b577-11eb-9527-4d45ac6cba43.png)<br>
-![image](https://user-images.githubusercontent.com/83326935/118372486-7b578100-b577-11eb-96d2-001638f9efc5.png)<br>
+<img src="https://github.com/fizzaaz/assign01-repo/blob/af4f797657ec7acad5b0527c711cccac917f9e62/Develop/assets/images/page2.png"/>
+<br>
+<img src="https://github.com/fizzaaz/assign01-repo/blob/af4f797657ec7acad5b0527c711cccac917f9e62/Develop/assets/images/page3.png"/>
 <br>
 <h2>Structure of a webpage</h2>
 <h3>Header</h3>
