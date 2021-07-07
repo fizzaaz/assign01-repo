@@ -1,6 +1,6 @@
 <h1> Horiseon Marketing Website </h1>
 <h4>Designed and coded by <a href="https://github.com/fizzaaz">FIZZA ZAIDI</a></h4>
-Based on the <a href="https://github.com/fizzaaz/assign01-repo">Horiseon WebPage</a>
+Based on the <a href="https://github.com/fizzaaz/market-webPage">Horiseon WebPage</a>
 
 Demo: https://fizzaaz.github.io/assign01-repo/Develop/
 <br>
